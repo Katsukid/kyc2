@@ -14,7 +14,7 @@ from utils.preprocessing import preprocess_image_and_points
 flags = tf.compat.v1.app.flags
 FLAGS = flags.FLAGS
 
-flags.DEFINE_string('train_logdir', 'G:\\Project\\eKYC\\K\\data\\model_dir',
+flags.DEFINE_string('train_logdir', 'data/model_dir',
                     'Where the checkpoint and logs are stored.')
 
 flags.DEFINE_string("pretrained_model", "pretrained_model/mobilenet_v2/mobilenet_v2_0.5_224.ckpt",
